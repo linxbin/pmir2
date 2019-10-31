@@ -1,0 +1,30 @@
+{
+    "name": "fan3750060/hello-script",
+    "type": "project",
+    "description": "Php-based scripting framework",
+    "keywords": [
+        "framework",
+        "hello Script",
+        "Script"
+    ],
+    "version": "0.2.1",
+    "homepage": "https://github.com/fan3750060/hello-script",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.0",
+        "phpseclib/phpseclib":"dev-master",
+        "vlucas/phpdotenv": "^3.4"
+    },
+    "authors": [
+        {
+            "name": "fan",
+            "email": "fan3750060@163.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "app",
+            "core\\": "core"
+        }
+    }
+}
