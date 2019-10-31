@@ -1,4 +1,4 @@
-## phpmir2
+## pmir2
 
 Mir2传奇模拟游戏服务器,项目采用PHP开发,Tcp基于swoole
 
